@@ -138,7 +138,7 @@ const projects = [
   {
     title: "CovidInfo Tracker",
     imgSrc: covid,
-    code: "https://github.com/AbayomiOlaoye/covid_info_update",
+    code: "https://github.com/AbayomiOlaoye/covid_info",
     projectLink: "https://covid-info-update.netlify.app/",
     tech: ["React", "Jest", "React Router"],
     description:
@@ -183,7 +183,7 @@ const projects = [
   {
     title: "Youths-In-Tech Global Summit",
     imgSrc: youth,
-    code: "https://www.github.com/AbayomiOlaoye/Youths-In-Tech-Project",
+    code: "https://www.github.com/AbayomiOlaoye/Youth-In-Tech-Project",
     projectLink: "https://abayomiolaoye.github.io/Youth-In-Tech-Project/",
     tech: ["HTML", "SASS", "JavaScript"],
     description:
