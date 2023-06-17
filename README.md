@@ -97,8 +97,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use pictorial/graphical illustration to summarize histories**
-- [ ] **Improve the user interfaces**
+- [ ] **Update more personal projects**
+- [ ] **Add recommendations from LinkedIn and Testimonials**
 - [ ] **Add more functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

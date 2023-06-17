@@ -22,7 +22,7 @@ const experience = [
       "Working as a freelancer to provide optimized and scalable web solutions to remote and on-site clients, boosting their online presence and users' experience to increase engagements by 70%.",
     tech: [
       "React",
-      "Nextjs",
+      "Next.js",
       "Styled Components",
       "JWT Auth",
       "PostgreSQL",
