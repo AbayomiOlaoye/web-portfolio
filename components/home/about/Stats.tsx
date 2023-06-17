@@ -16,10 +16,14 @@ export const Stats = () => {
             <span className="chip">HTML</span>
             <span className="chip">CSS</span>
             <span className="chip">Tailwind</span>
+            <span className="chip">Jest</span>
+            <span className="chip">Rspec</span>
             <span className="chip">React</span>
-            <span className="chip">Nextjs</span>
+            <span className="chip">Next.js</span>
             <span className="chip">Redux</span>
             <span className="chip">PostgreSQL</span>
+            <span className="chip">Ruby</span>
+            <span className="chip">Ruby on Rails</span>
             <span className="chip">GitHub</span>
             <span className="chip">GitLab</span>
           </div>
@@ -37,7 +41,6 @@ export const Stats = () => {
             <span className="chip">Django</span>
             <span className="chip">Python</span>
             <span className="chip">Gatsby</span>
-            <span className="chip">Nextjs</span>
             <span className="chip">Material UI</span>
             <span className="chip">Tailwind</span>
             <span className="chip">Figma</span>
@@ -46,7 +49,6 @@ export const Stats = () => {
             <span className="chip">Netlify</span>
             <span className="chip">Heroku</span>
             <span className="chip">C</span>
-
           </div>
         </div>
       </Reveal>

@@ -214,7 +214,7 @@ const projects = [
     projectLink: "https://abayomiolaoye.github.io/book_tracker/",
     tech: ["JavaScript", "Webpack", "REST API", "Jest"],
     description:
-      "A replica of Awesome Book with refactored codes, using mainly ES6 syntaxes, modules, arrow functions, js library (luxon), and more. The app adds, removes and updates book in real-time with local storage functions.",
+      "A replica of Awesome Book with refactored codes, using mainly ES6 syntaxes, modules, arrow functions, JavaScript libraries (Axios, Luxon), and more. The app adds, removes and updates book in real-time with local storage functions.",
     modalContent: (
       <>
         <p>
