@@ -23,7 +23,7 @@ export const Hero = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutCopy}>
-              I&apos;ve spent this past <span>1</span> year in coding over <span>6000+</span> hours coding, building and scaling over <span>30</span> projects with Vanilla JavaScript, React, Ruby, Ruby on Rails as group projects, for
+              I&apos;ve spent this past <span>1</span> year in coding for over <span>6000+</span> hours coding, building and scaling over <span>30</span> projects with Vanilla JavaScript, React, Ruby, Ruby on Rails as group projects, for
               some pretty cool companies, and individuals to match up to <span>3</span> years industry experience. 
               I also create interesting self projects in my spare time, and I am always open to opportunities.
               Let&apos;s connect!
