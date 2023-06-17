@@ -24,7 +24,7 @@ export const Contact = () => {
             </Link>{" "}
             or{" "}
             <Link href="https://twitter/olaoyeelijah" target="_blank" rel="nofollow">
-              Skype
+              Twitter
             </Link>{" "}
             if that&apos;s more your space ✨
           </p>

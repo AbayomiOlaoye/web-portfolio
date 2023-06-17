@@ -30,7 +30,7 @@ const projects = [
     title: "El-kanis & Partners Official Website",
     imgSrc: elkanis,
     code: "https://github.com/AbayomiOlaoye/elkanis_official_website",
-    projectLink: "//https://elkanis-official-website.vercel.app/",
+    projectLink: "https://elkanis-official-website.vercel.app/",
     tech: ["React", "Styled Components", "React Router"],
     description:
       "An official website of El-kanis & Partners, an agric tech company scaling the food-chain waves in Nigeria and Africa at large. It's my first official engagement after my training at Microverse.",
@@ -44,12 +44,12 @@ const projects = [
         <p>
           From ideation to deployment, I collaborated closely with the UI/UX team to enhance the user experience and interface by
           leveraging their expertise to create an intuitive website that effectively communicated El-kanis &
-          Partners&lquos; mission and offerings.
+          Partners&apos; mission and offerings.
         </p>
         <p>
           By combining my technical skills at creating reusable components and leveraging React Hooks with a keen eye for aesthetics, I successfully transformed the wireframe into a cohesive
           and engaging web presence for El-kanis & Partners. It was a fulfilling experience that allowed me to contribute to the
-          company&lquos;s growth in the digital space and showcase my dedication to crafting exceptional and fully optimized online experiences.
+          company&apos;s growth in the digital space and showcase my dedication to crafting exceptional and fully optimized online experiences.
         </p>
         <p>
           I learnt a lot working on this project, especially in the area of working with a team of industry-expert designers. I was able to implement efficient
@@ -99,7 +99,7 @@ const projects = [
         </p>
         <p>
           This is a very fun project that I built using Redux to manage the seaming complex nature of the states to ensure an all-time
-          and real-time updating of users&lquos; inputs.
+          and real-time updating of users&apos; inputs.
         </p>
         <p>
           I also used Framer Motion to animate the components and give the app a nice feel. I had a nice experience with creating
@@ -152,7 +152,7 @@ const projects = [
         <p>
           By combining my technical skills at creating reusable components and leveraging React Hooks with a keen eye for aesthetics, I successfully transformed the wireframe into a cohesive
           and engaging web presence for El-kanis & Partners. It was a fulfilling experience that allowed me to contribute to the
-          company&lquos;s growth in the digital space and showcase my dedication to crafting exceptional and fully optimized online experiences.
+          company&apos;s growth in the digital space and showcase my dedication to crafting exceptional and fully optimized online experiences.
         </p>
       </>
     ),
@@ -203,7 +203,7 @@ const projects = [
         </p>
         <p>
           It is a simple conference website that showcases the speakers, the schedule, and the venue of the event. It was so
-          special that with much enthusiasm, I spent a lot of time design the icons, logos, and other graphics used in the project.
+          special that with much enthusiasm, I spent time designing the icons, logos, and other graphics used in the project.
           I built it using HTML, SASS, and JavaScript in 1 day after 3 days of sourcing for web assets. 🤓
         </p>
         <p>
@@ -214,28 +214,27 @@ const projects = [
     ),
   },
   {
-    title: "World Vision Clinic",
-    imgSrc: tv,
-    code: "https://github.com/AbayomiOlaoye/TVshow",
-    projectLink: "https://t-vshow.vercel.app/",
+    title: "BookTracker App",
+    imgSrc: booktracker,
+    code: "https://github.com/AbayomiOlaoye/book_tracker",
+    projectLink: "https://abayomiolaoye.github.io/book_tracker/",
     tech: ["JavaScript", "Webpack", "REST API", "Jest"],
     description:
-      "TAn application called Night show in which a user can comment, like and reserve a movie from a list of movies using an API from TV MAZE.",
+      "A replica of Awesome Book with refactored codes, using mainly ES6 syntaxes, modules, arrow functions, js library (luxon), and more. The app adds, removes and updates book in real-time with local storage functions.",
     modalContent: (
       <>
         <p>
-          Hitting the API in a real project for the first time, we walked on basic CRUD (Create, Read, Update, and Destroy)
-          functionalities in this project. It was a nice experience using the API from TV MAZE to fetch data and display it in a user-friendly interface.
+          In this pseudo project, I was working with modularizing codes into maintainable units and components using ES6 syntaxes and modules.
+          I also used Jest to test the functions and ensure they work as expected.
         </p>
         <p>
-          I worked on this project with another developer, where we used JavaScript to create the components and Webpack to bundle the files.
-          I was responsible for the creation comments features where users can comment on a movie, and instantly making it public for all
-          viewers who checked that particular movie. It as has a counter that updates in real-time, showing the number of comments a movie has.
+          In programming, modularization is a technique that separates the functionality of a program into independent, interchangeable modules.
+          It is a way of organizing programs into separate, discrete, and independent parts. It makes code cleaner to write, easier to understand, maintain, and test.
         </p>
-        <p>
-          Like every other projects, we tested all the components and functions using Jest, and it was a nice experience. I really enjoyed working with another developer, and I look forward
+        <p>It makes me more concerned about my PROCESSES than I was about was RESULTS.</p>
+        <p>It endeared me to the use of JavaScript ES6 Syntax (modules, arrow functions, let, const, destructuring, etc.) because of the improvements it avails,
+          aside from my experience with bundling web assets with Webpack, and using npm packages/libraries.
         </p>
-        <p>I was trained to write efficient, scalable, maintainable, and clean codes suitable for seamless teamwork and uniformity of best practices 🥇</p>
       </>
     ),
   },
