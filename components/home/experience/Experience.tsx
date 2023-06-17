@@ -23,7 +23,7 @@ const experience = [
     tech: [
       "React",
       "Nextjs",
-      "Sytled Components",
+      "Styled Components",
       "JWT Auth",
       "PostgreSQL",
       "Ruby on Rails",
@@ -31,6 +31,27 @@ const experience = [
       "Git",
       "Github",
       "Ruby",
+    ],
+  },
+  {
+    title: "Forage (BlackBird Australia)",
+    position: "Software Engineering Virtual Experience Program",
+    time: "Apr 2023",
+    location: "Virtual Experience",
+    description:
+      "During this program, I gained valuable insight into what it’s like to be a software engineer in a startup environment, with practical opportunities to practice practicals skills: how to build and verify code, assess cloud infrastructure, collaborate using GitHub CLI. I also had the opportunity to contribute to a Sprint Retro with Baraja an utilize an open source project with Morse Code to create a temperature warning system using Arduino microcontroller.",
+    tech: [
+      "React",
+      "Unit Testing",
+      "JavaScript",
+      "A/B Testing",
+      "Product Analytics",
+      "Project Management",
+      "Agile Methodology",
+      "Arduino",
+      "GitHub CLI",
+      "Cloud Infrastructure",
+      "Architecture",
     ],
   },
   {
