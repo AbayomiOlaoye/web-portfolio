@@ -28,7 +28,7 @@ export const SideBar = () => {
   }, []);
 
   return (
-    <div style={{background: "var(--background-dark)"}}>
+    <div className={styles.div}>
       <motion.nav
         initial={{ x: -70 }}
         animate={{ x: 0 }}

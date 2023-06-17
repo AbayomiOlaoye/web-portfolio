@@ -1,3 +1,18 @@
+.div {
+  background: var(--background-dark);
+
+  @media screen and (max-width: 468px) {
+    position: fixed;
+    height: 8vh;
+    z-index: 500;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 2rem 2rem 0 0;
+  }
+}
+
 .sideBar {
   background: var(--background-dark);
 
@@ -10,6 +25,8 @@
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
   align-items: center;
   overflow-y: scroll;
 
@@ -46,11 +63,37 @@
     border-right: 1px solid var(--brand);
     opacity: 1;
   }
+
+  @media screen and (max-width: 468px) {
+    flex-direction: row;
+    height: 8vh;
+    width: 90vw;
+    left: 0;
+    top: 70%;
+    gap: 0.25rem;
+    justify-content: center;
+    border-radius: 2rem 2rem 0 0;
+    align-items: center;
+
+    a {
+      writing-mode: unset;
+      height: 100%;
+      flex-shrink: unset;
+      border-right: none;
+    }
+
+    .selected {
+      border-top: 1px solid var(--brand);
+      border-right: none;
+    }
+  }
 }
 
 .logo {
   cursor: pointer;
   flex-shrink: 0;
+  justify-self: flex-start;
+  position: relative;
 
   font-size: var(--text-md);
   font-weight: 900;

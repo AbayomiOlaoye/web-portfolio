@@ -9,7 +9,7 @@ export const Stats = () => {
         <div className={styles.statColumn}>
           <h4>
             <AiFillCode size="2.4rem" color="var(--brand)" />
-            <span>Use at work</span>
+            <span>Skills & Expertise</span>
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">JavaScript</span>
@@ -26,6 +26,8 @@ export const Stats = () => {
             <span className="chip">Ruby on Rails</span>
             <span className="chip">GitHub</span>
             <span className="chip">GitLab</span>
+            <span className="chip">Remote Collaboration</span>
+            <span className="chip">Agile</span>
           </div>
         </div>
       </Reveal>
@@ -33,7 +35,7 @@ export const Stats = () => {
         <div className={styles.statColumn}>
           <h4>
             <AiFillSmile size="2.4rem" color="var(--brand)" />
-            <span>Use for fun</span>
+            <span>Fun & Interest</span>
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">React Native</span>

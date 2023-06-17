@@ -3,6 +3,10 @@
   gap: 1.6rem;
   padding-top: 10px;
 
+  @media screen and (max-width: 468pc) {
+    gap: 2.5rem;
+  }
+
   a {
     opacity: 0.5;
     position: relative;
