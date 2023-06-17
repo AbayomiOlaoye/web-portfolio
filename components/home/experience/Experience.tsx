@@ -103,18 +103,23 @@ const experience = [
     ],
   },
   {
-    title: "IFormat Logic",
-    position: "Senior Fullstack Developer",
-    time: "Aug 2020 - Dec 2020",
-    location: "Palanginan, Zambales",
+    title: "El-kanis & Partners",
+    position: "Accountant",
+    time: "Dec. 2019 - Oct. 2021",
+    location: "Uyo, Nigeria",
     description:
-      "Managed and created complex projects from start to finish and also collaborated with other developers. Translated requirements into polished, high-level web application.",
+      "El-Kanis & Partners is an active and leading company in agro-tech in Uyo, Nigeria with demonstrated capability in the several projects handled. As an accountant in the land of software developers (Web applications and mobile apps), I took on several intuitions to learn basic concepts of the stack while performing my accounting rites. This was were I got my first taste of programming and I fell in love with it. I was able to build a simple Wordpress website for MindPrep Nigeria within a week. 🤗",
     tech: [
-      "Vuejs",
-      "Laravel",
-      "Tailwind",
-      "Git",
-      "Github"
+      "Interpersonal Relationship Management",
+      "Attention to Details",
+      "Thoroughness",
+      "Problem Solving",
+      "Proactive thinking",
+      "Automation",
+      "Audit",
+      "Accounting",
+      "Process Improvement",
+      "Internal Controls",
     ],
   },
 ];
