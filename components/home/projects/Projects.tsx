@@ -73,7 +73,7 @@ const projects = [
           access to personal financial information.
         </p>
         <p>
-          With the power of Rails a full MVC stack, I designed the database models, setup Postgres, and create nice views for interaction.
+          With the power of Rails a full MVC stack, I designed the database models, setup Postgres, and created nice views for interaction.
         </p>
         <p>
           The app features a user-friendly interface, intuitive category management, and a comprehensive transaction history. It prioritizes data security
@@ -103,7 +103,8 @@ const projects = [
         </p>
         <p>
           I also used Framer Motion to animate the components and give the app a nice feel. I had a nice experience with creating
-          reducers and actions for the React components but scalability and maintainability issues, I hope to build a similar project using newly evolving state management technologies like like Jotai and RxJS.
+          reducers and actions for the React components but for scalability and maintainability issues, I hope to build a similar
+          project using newly evolving state management technologies like like Jotai and RxJS for state management.
         </p>
       </>
     ),
@@ -120,13 +121,15 @@ const projects = [
       <>
         <p>I worked with other 3 developers on this amazing qualifying project where we connected Rails API to React App</p>
         <p>
-          I was responsible for the some components in the front-end of the project, where I created the UI and connected it to the back-end. I also
+          I was responsible for some components in the front-end of the project, where I created the UI and connected it to the back-end. I also
           helped in the creation of the back-end, where I created the models, controllers, and serializers.
         </p>
         <p>
-          It was particularly fun and fulfilling when my previous learning on User Experience was beneficial avoiding a potential conflict
-          that could have blocked us from meeting up with the deadline while designing our database system (Entity Relational Diagram),
-          in creating a user-friendly interface, and fixing a bug that was preventing the app from working as expected.
+          It was particularly fun and fulfilling when my previous learning on User Experience was beneficial in avoiding a potential conflict
+          that could have blocked us from meeting up with the deadline while designing our database system (Entity Relational Diagram). I contributed
+          a great deal in the creation user-friendly interfaces, and fixed a bug that was preventing the app from working as expected.
+          - specifically, the <code>deleteDoctor()</code> method in the <kbd>doctor&apo;s</kbd> controller logic was not working as expected.<br />
+          After a brief series of debugging to ensure that the routes were configured correctly, I was able to fix it by changing the <code>doctor</code> to <code>doctor_id</code> in the <code>params</code> of the <code>deleteDoctor()</code> method.
         </p>
         <p>I really enjoy working in a team with diverse unique skills and experiences. 😎</p>
       </>
@@ -146,13 +149,8 @@ const projects = [
           In my early days of working with APIs in React Apps, I built this Single Page App to provide accurate statistics and reports as documented by authentic sources.
         </p>
         <p>
-          By fetching data from the <a href="https://disease.sh/v3/covid-19/continents">Disease.sh</a>API, I was able to display the data in a user-friendly interface that
+          By fetching data from the <a href="https://disease.sh/v3/covid-19/continents">Disease.sh API</a>, I was able to display the data in a user-friendly interface that
           allows users to filter the data by country and sort the data by the number of cases, deaths, and recoveries.
-        </p>
-        <p>
-          By combining my technical skills at creating reusable components and leveraging React Hooks with a keen eye for aesthetics, I successfully transformed the wireframe into a cohesive
-          and engaging web presence for El-kanis & Partners. It was a fulfilling experience that allowed me to contribute to the
-          company&apos;s growth in the digital space and showcase my dedication to crafting exceptional and fully optimized online experiences.
         </p>
       </>
     ),
@@ -168,7 +166,7 @@ const projects = [
     modalContent: (
       <>
         <p>
-          I think I used Redux a lot in most of my applications. I love the way it manages states and makes it easy to share data across components.
+          I think I used Redux a lot in most of my applications. I love the way it manages states and makes it easy to share data across components especially in a complex app.
         </p>
         <p>
           Redux offers centralized state management, predictable state changes, time travel debugging, easy collaboration, component decoupling,
@@ -176,7 +174,7 @@ const projects = [
         </p>
         <p>
           With one other developer, we built this app using Redux to manage the states and React Hooks to manage the components. It might be the first time
-          we were using conditional rendering in React, and it was a nice experience. With it, you can book a rocket, cancel a booking, and join a mission.
+          we were using conditional rendering in React, and it was a nice experience. <br /><br />With it, you can book a rocket, cancel a booking, and join a mission.
         </p>
         <p>Just some basic CRUD functionality thriving on optimized rendering 🚀</p>
       </>
@@ -205,10 +203,6 @@ const projects = [
           It is a simple conference website that showcases the speakers, the schedule, and the venue of the event. It was so
           special that with much enthusiasm, I spent time designing the icons, logos, and other graphics used in the project.
           I built it using HTML, SASS, and JavaScript in 1 day after 3 days of sourcing for web assets. 🤓
-        </p>
-        <p>
-          I also used Framer Motion to animate the components and give the app a nice feel. I had a nice experience with creating
-          reducers and actions for the React components but scalability and maintainability issues, I hope to build a similar project using newly evolving state management technologies like like Jotai and RxJS.
         </p>
       </>
     ),
