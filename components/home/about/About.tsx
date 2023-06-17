@@ -32,7 +32,7 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              When I&apos;m not coding, I&apos;m picking up concepts about design and Data Structures, or you could check for at The Emirate Stadium. 
+              When I&apos;m not coding, I&apos;m picking up concepts about design and Data Structures, or you could check for me at The Emirate Stadium. 
               I am probably enjoying Football in England. 🤓
             </p>
           </Reveal>
