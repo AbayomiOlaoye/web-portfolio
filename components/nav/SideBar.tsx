@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import styles from "./sidebar.module.scss";
 import { motion } from "framer-motion";
+import logo from "../../public/oat-logo.png";
 
 export const SideBar = () => {
   const [selected, setSelected] = useState("");
@@ -38,7 +40,16 @@ export const SideBar = () => {
           document.getElementById("main")?.scrollIntoView() :
           document.location.hash = '';
           }}>
-          OAT<span>.</span>
+            <Image
+              src={logo}
+              alt={`my ${logo} project featured image`}
+              width={50}
+              height={50}
+              style={{
+                maxWidth: '100% !important',
+                maxHeight: '100% !important',
+              }}
+              />
         </span>
         <motion.a
           initial={{ x: -70 }}
