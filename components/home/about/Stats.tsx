@@ -9,7 +9,7 @@ export const Stats = () => {
         <div className={styles.statColumn}>
           <h4>
             <AiFillCode size="2.4rem" color="var(--brand)" />
-            <span>Skills & Expertise</span>
+            <span>What I use Often</span>
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">JavaScript</span>

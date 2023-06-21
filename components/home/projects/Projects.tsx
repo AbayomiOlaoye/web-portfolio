@@ -128,7 +128,7 @@ const projects = [
           It was particularly fun and fulfilling when my previous learning on User Experience was beneficial in avoiding a potential conflict
           that could have blocked us from meeting up with the deadline while designing our database system (Entity Relational Diagram). I contributed
           a great deal in the creation user-friendly interfaces, and fixed a bug that was preventing the app from working as expected.
-          - specifically, the <code>deleteDoctor()</code> method in the <kbd>doctor&apo;s</kbd> controller logic was not working as expected.<br />
+          - specifically, the <code>deleteDoctor()</code> method in the <code>doctor&apos;s</code> controller logic was not working as expected.<br />
           After a brief series of debugging to ensure that the routes were configured correctly, I was able to fix it by changing the <code>doctor</code> to <code>doctor_id</code> in the <code>params</code> of the <code>deleteDoctor()</code> method.
         </p>
         <p>I really enjoy working in a team with diverse unique skills and experiences. 😎</p>

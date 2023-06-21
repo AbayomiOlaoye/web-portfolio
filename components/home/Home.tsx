@@ -3,6 +3,7 @@ import { SideBar } from "../nav/SideBar";
 import { Hero } from "./hero/Hero";
 import styles from "./home.module.scss";
 import { Heading } from "../nav/Heading";
+import { Skills } from "./skills/Skills";
 import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
 import { Experience } from "./experience/Experience";
@@ -17,6 +18,7 @@ export const Home = () => {
           <Heading />
           <Hero />
           <About />
+          <Skills />
           <Projects />
           <Experience />
           <Contact />
