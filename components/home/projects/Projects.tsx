@@ -138,7 +138,7 @@ const projects = [
   {
     title: "CovidInfo Tracker",
     imgSrc: covid,
-    code: "https://github.com/AbayomiOlaoye/covid_info",
+    code: "https://github.com/AbayomiOlaoye/covid-info",
     projectLink: "https://covid-info-update.netlify.app/",
     tech: ["React", "Jest", "React Router"],
     description:

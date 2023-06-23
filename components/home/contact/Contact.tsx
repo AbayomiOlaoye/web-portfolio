@@ -1,9 +1,17 @@
+import React, { useState } from "react";
 import { Reveal } from "@/components/utils/Reveal";
 import styles from "./contact.module.scss";
 import { AiFillMail } from "react-icons/ai";
 import Link from "next/link";
+import ContactForm from "./Form";
 
 export const Contact = () => {
+  const [showForm, setShowForm] = useState(false);
+
+  const toggleFormVisibility = () => {
+    setShowForm(!showForm);
+  };
+
   return (
     <section className="section-wrapper" id="contact">
       <div className={styles.contactWrapper}>
@@ -30,12 +38,15 @@ export const Contact = () => {
           </p>
         </Reveal>
         <Reveal width="100%">
-          <Link href="mailto:mindprepopps@gmail.com">
+          <Link href="#" onClick={toggleFormVisibility}>
             <div className={styles.contactEmail}>
               <AiFillMail size="2.4rem" />
               <span>Send Email</span>
             </div>
           </Link>
+        </Reveal>
+        <Reveal width="100%">
+          {showForm && <ContactForm toggleFormVisibility={toggleFormVisibility} />}
         </Reveal>
       </div>
     </section>

@@ -72,6 +72,8 @@ export const SideBar = () => {
                 maxHeight: '100% !important',
               }}
               />
+              
+
         </span> */}
         <motion.a
           initial={{ x: -70 }}
