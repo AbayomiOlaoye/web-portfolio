@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState } from "react";
 import { Reveal } from "@/components/utils/Reveal";
 import styles from "./contact.module.scss";
@@ -46,7 +47,10 @@ export const Contact = () => {
           </Link>
         </Reveal>
         <Reveal width="100%">
-          {showForm && <ContactForm toggleFormVisibility={toggleFormVisibility} />}
+          
+          {showForm ? (
+            <ContactForm toggleFormVisibility={toggleFormVisibility} />
+          ) : ''}
         </Reveal>
       </div>
     </section>

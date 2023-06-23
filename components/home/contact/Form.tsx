@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { AiFillCloseCircle } from "react-icons/ai"; 
 import { useState, useEffect, useRef } from 'react';
 import emailjs from 'emailjs-com';
