@@ -35,6 +35,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ toggleFormVisibility }) => {
       await emailjs.sendForm(
         'service_58prg5n',
         'template_hm5u14h', // eslint-disable-next-line '
+        // @ts-ignore
         target, // eslint-disable-next-line
         'YrSRp-N_3eBkb9lrm'
       );
