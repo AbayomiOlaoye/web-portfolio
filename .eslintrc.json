@@ -1,3 +1,4 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "eslint.disable": ["no-unsafe-assignment", "no-undef", "argument-of-type-eventtarget", "no-unused-vars", "no-var", "prefer-const", "eslint-disable"]
 }

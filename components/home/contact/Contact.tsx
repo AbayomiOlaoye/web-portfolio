@@ -50,7 +50,7 @@ export const Contact = () => {
           
           {showForm ? (
             <ContactForm toggleFormVisibility={toggleFormVisibility} />
-          ) : ''}
+          ) : <div />}
         </Reveal>
       </div>
     </section>
