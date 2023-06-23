@@ -121,7 +121,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ toggleFormVisibility }) => {
         }
 
         .form {
-          width: 40%;
+          width: 100%;
           padding: 20px;
           background-color: #fff;
           border-radius: 5px;
@@ -181,11 +181,22 @@ const ContactForm: React.FC<ContactFormProps> = ({ toggleFormVisibility }) => {
 
         .close-btn {
           position: absolute;
-          top: 14vh;
-          left: 70vw;
+          top: 21vh;
+          left: 85vw;
           font-size: 4rem;
           cursor: pointer;
           color: var(--brand);
+        }
+
+        @media screen and (min-width: 768px) {
+          .form {
+            width: 50%;
+          }
+
+          .close-btn {
+            top: 29vh;
+            left: 70vw;
+          }
         }
       `}</style>
     </div>
