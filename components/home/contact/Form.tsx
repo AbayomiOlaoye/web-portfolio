@@ -72,9 +72,9 @@ const ContactForm: React.FC<ContactFormProps> = ({ toggleFormVisibility }) => {
         <AiFillCloseCircle />
       </div>
       <form className="form" onSubmit={handleSubmit} ref={formRef}>
-        <h2>Let's chat</h2>
+        <h2>Let&apos;s chat</h2>
         <p>It will be a pleasure to hear from you! If you have an application you are interested in developing, a feature that you need
-          built or a project that needs coding. I'd love to help with it.
+          built or a project that needs coding. I&apos;d love to help with it.
         </p>
         {successMessage && <p className="success-message">{successMessage}</p>}
         {errorMessage && <p className="error-message">{errorMessage}</p>}
