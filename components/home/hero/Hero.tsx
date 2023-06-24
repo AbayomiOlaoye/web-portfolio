@@ -52,7 +52,7 @@ export const Hero = () => {
           />
         </motion.div>
       </div>
-      {/* <DotGrid /> */}
+      <DotGrid />
     </section>
   );
 };

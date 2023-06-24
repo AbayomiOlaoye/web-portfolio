@@ -36,16 +36,6 @@ export const Heading = () => {
         <OutlineButton onClick={() => window.open("/Oluwatoyin_Olaoye's_Resume.pdf")}>
           My resume
         </OutlineButton>
-        {/* <a href="https://www.buymeacoffee.com/mindprepdev" target="_blank">
-          <Image
-            className={styles.profile}
-            loader={myLoader}
-            alt="Buy me a coffee tag"
-            src={wole}
-            width="185"
-            height="46"
-          />
-        </a> */}
       </div>
     </header>
   );
