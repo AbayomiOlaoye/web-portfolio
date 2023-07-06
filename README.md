@@ -21,7 +21,7 @@
 
 # 📖 Web Portfolio - OAT <a name="about-project"></a>
 
-This is my personal web portfolio that shows my selected projects and shows my learning feeds
+This is my personal web portfolio that shows my selected projects and shows my learning feeds. Feel free to connect.
 
 ## 🛠 Built With <a name="built-with"></a>
 
