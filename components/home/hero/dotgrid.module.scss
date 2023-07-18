@@ -3,9 +3,19 @@
   top: 12px;
   bottom: 12px;
   right: 3.6rem;
-  max-width: 75%;
-  display: grid;
+  max-width: 45%;
+  height: 70%;
+  display: none;
+  margin: auto 0;
   z-index: 0;
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 100%;
+  }
 }
 
 .dotWrapper {

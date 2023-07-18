@@ -30,7 +30,7 @@ const projects = [
     title: "El-kanis & Partners Official Website",
     imgSrc: elkanis,
     code: "https://github.com/AbayomiOlaoye/elkanis_official_website",
-    projectLink: "https://elkanis-official-website.vercel.app/",
+    projectLink: "https://elkanisgroup.com/",
     tech: ["React", "Styled Components", "React Router"],
     description:
       "An official website of El-kanis & Partners, an agric tech company scaling the food-chain waves in Nigeria and Africa at large. It's my first official engagement after my training at Microverse.",
