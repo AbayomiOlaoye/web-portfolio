@@ -27,6 +27,39 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "SmartRepo App",
+    imgSrc: elkanis,
+    code: "#",
+    projectLink: "https://smartrepo-frontend-2d052ed8e098.herokuapp.com/",
+    tech: ["React", "Styled Components", "React Router", "Node.JS", "Express", "MongoDB", "Cheerio"],
+    description:
+      "A project based on intelligent transport systems leveraging Node.Js for back-end and React app for front-end. It acts as a repository for legislations, directives, and standards for smart transport systems. It features laws that are peculiar to the United Kingdom and the European Union. It also features a search engine that allows users to search for laws based on keywords. The search engine is powered by the Elasticsearch engine. The project is built with React, Nodejs, ExpressJS, Cheerio, and Elasticsearch. SmartRepo scrapes data from the UK government website and the European Union website. The frontend is hosted on Vercel while the backend is hosted on Heroku. The project is built with the Test Driven Development methodology.",
+    modalContent: (
+      <>
+        <p>
+          I spearheaded the development of a comprehensive platform focused on providing users with vital insights into the
+          legal landscape of smart transportation. Meticulously architecting a robust backend with Express.js, Node.js,
+          and MongoDB, I implemented secure user authentication through JWT and bcrypt. This backend not only serves as an
+          API for seamless frontend communication but also orchestrates web scraping operations to fetch real-time legal
+          idata from authoritative sources.
+        </p>
+        <p>
+          On the frontend, I crafted a responsive React application that seamlessly communicates with the backend to deliver
+          legal information in a visually appealing manner. Leveraging React Router for navigation, the application provides an
+          intuitive and engaging user experience. An innovative feature involves web scraping for dynamic data retrieval,
+          showcasing my ability to implement complex functionalities while ensuring data privacy and system reliability.
+        </p>
+        <p>
+          The project also stands out for its attention to detail, incorporating animations with the AOS library for a
+          modern and captivating user interface. Git version control was employed throughout development, facilitating
+          efficient collaboration and maintaining a clear project history. Deployed on a cloud server, this project underscores
+          my full-stack development skills, encompassing backend design, secure authentication, frontend implementation,
+          web scraping, and deployment best practices.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "El-kanis & Partners Official Website",
     imgSrc: elkanis,
     code: "https://github.com/AbayomiOlaoye/elkanis_official_website",
