@@ -33,7 +33,7 @@ const projects = [
     projectLink: "https://smartrepo-frontend-2d052ed8e098.herokuapp.com/",
     tech: ["React", "Styled Components", "React Router", "Node.JS", "Express", "MongoDB", "Cheerio"],
     description:
-      "A project based on intelligent transport systems leveraging Node.Js for back-end and React app for front-end. It acts as a repository for legislations, directives, and standards for smart transport systems. It features laws that are peculiar to the United Kingdom and the European Union. It also features a search engine that allows users to search for laws based on keywords. The search engine is powered by the Elasticsearch engine. The project is built with React, Nodejs, ExpressJS, Cheerio, and Elasticsearch. SmartRepo scrapes data from the UK government website and the European Union website. The frontend is hosted on Vercel while the backend is hosted on Heroku. The project is built with the Test Driven Development methodology.",
+      "A project based on intelligent transport systems leveraging Node.Js for back-end and React app for front-end. It acts as a repository for legislations, directives, and standards for smart transport systems. It features laws that are peculiar to the United Kingdom and the European Union. It also features a search engine that allows users to search for laws based on keywords. The project is built with React, Nodejs, ExpressJS, Cheerio, and Elasticsearch. SmartRepo scrapes data from the UK government website and the European Union website. The frontend is hosted on Vercel while the backend is hosted on Heroku. The project is built with the Test Driven Development methodology.",
     modalContent: (
       <>
         <p>
