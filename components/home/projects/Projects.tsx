@@ -6,7 +6,7 @@ import budgetWise from '@/public/project-images/budget_wise.png';
 import booktracker from '@/public/project-images/booktracker_cover.png';
 import covid from '@/public/project-images/covid_cover.png';
 import space from '@/public/project-images/space_cover.png';
-import tv from '@/public/project-images/tvshow_cover.png';
+import smartRepo from '@/public/project-images/smartRepo.png';
 import youth from '@/public/project-images/youth_cover.png';
 import elkanis from '@/public/project-images/elkanis_Pcover.png';
 import cms from '@/public/project-images/cms_cover.png';
@@ -28,7 +28,7 @@ export const Projects = () => {
 const projects = [
   {
     title: "SmartRepo App",
-    imgSrc: elkanis,
+    imgSrc: smartRepo,
     code: "#",
     projectLink: "https://smartrepo-frontend-2d052ed8e098.herokuapp.com/",
     tech: ["React", "Styled Components", "React Router", "Node.JS", "Express", "MongoDB", "Cheerio"],
