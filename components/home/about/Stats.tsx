@@ -23,6 +23,8 @@ export const Stats = () => {
             <span className="chip">Redux</span>
             <span className="chip">PostgreSQL</span>
             <span className="chip">Ruby</span>
+            <span className="chip">Node.Js</span>
+            <span className="chip">Express</span>
             <span className="chip">Ruby on Rails</span>
             <span className="chip">GitHub</span>
             <span className="chip">GitLab</span>
@@ -40,8 +42,6 @@ export const Stats = () => {
           <div className={styles.statGrid}>
             <span className="chip">React Native</span>
             <span className="chip">TypeScript</span>
-            <span className="chip">Django</span>
-            <span className="chip">Python</span>
             <span className="chip">Gatsby</span>
             <span className="chip">Material UI</span>
             <span className="chip">Tailwind</span>

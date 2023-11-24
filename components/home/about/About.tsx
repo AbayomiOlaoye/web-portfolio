@@ -14,7 +14,7 @@ export const About = () => {
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               Hi, I&apos;m Oluwatoyin Olaoye, a skilled software developer specializing in Ruby, JavaScript, React,
-              and Ruby on Rails. With 2 years worth of experience in 1 year,I excel in building robust web applications.
+              and Ruby on Rails. With 2 years worth of experience,I excel in building robust web applications.
              </p>
           </Reveal>
           <Reveal>
