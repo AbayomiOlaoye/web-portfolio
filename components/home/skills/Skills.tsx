@@ -47,8 +47,7 @@ export const Skills = () => {
               <span className="chip">JavaScript</span>
               <span className="chip">Rspec</span>
               <span className="chip">Next.js</span>
-              <span className="chip">Python</span>
-              <span className="chip">Django</span>
+              <span className="chip">Node.Js</span>
             </div>
           </div>
         </Reveal>
