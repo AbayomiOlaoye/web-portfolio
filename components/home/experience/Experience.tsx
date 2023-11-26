@@ -14,12 +14,12 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "MindPrep Technologies",
-    position: "Freelancer",
+    title: "MindByte Technologies",
+    position: "Full-Stack Developer",
     time: "Jun 2023 - Present",
     location: "On-site/Remote",
     description:
-      "Working as a freelancer to provide optimized and scalable web solutions to remote and on-site clients, boosting their online presence and users' experience to increase engagements by 70%.",
+      "Working as a full-stack developer to provide optimized and scalable web solutions to remote and on-site clients, boosting their online presence and users' experience to increase engagements by 70%.",
     tech: [
       "React",
       "Next.js",
@@ -29,7 +29,7 @@ const experience = [
       "Ruby on Rails",
       "Ruby",
       "Git",
-      "Github",
+      "GitHub",
       "Ruby",
     ],
   },
