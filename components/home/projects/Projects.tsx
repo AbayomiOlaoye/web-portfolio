@@ -5,8 +5,8 @@ import clinic from '@/public/project-images/vision_cover.png';
 import budgetWise from '@/public/project-images/budget_wise.png';
 import booktracker from '@/public/project-images/booktracker_cover.png';
 import covid from '@/public/project-images/covid_cover.png';
+import palmshops from '@/public/project-images/palmshops.png';
 import space from '@/public/project-images/space_cover.png';
-import smartRepo from '@/public/project-images/smartRepo.png';
 import youth from '@/public/project-images/youth_cover.png';
 import elkanis from '@/public/project-images/elkanis_Pcover.png';
 import cms from '@/public/project-images/cms_cover.png';
@@ -27,34 +27,30 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "SmartRepo App",
-    imgSrc: smartRepo,
-    code: "#",
-    projectLink: "https://smartrepo-frontend-2d052ed8e098.herokuapp.com/",
-    tech: ["React", "Styled Components", "React Router", "Node.JS", "Express", "MongoDB", "Cheerio"],
+    title: "PalmShops",
+    imgSrc: palmshops,
+    code: "https://github.com/AbayomiOlaoye/PalmShops_LP",
+    projectLink: "https://palmshops.com/",
+    tech: ["React", "Styled Components", "React Router"],
     description:
-      "A project based on intelligent transport systems leveraging Node.Js for back-end and React app for front-end. It acts as a repository for legislations, directives, and standards for smart transport systems. It features laws that are peculiar to the United Kingdom and the European Union. It also features a search engine that allows users to search for laws based on keywords. The project is built with React, Nodejs, ExpressJS, Cheerio, MongoDB. SmartRepo scrapes data from the UK government website and the European Union website.",
+      "A landing page for an MVP project to be launched as a product of Josult Oil offering farmers, investors, and other prospects to learn about farming, access fintech services, manage inventory, and have access to wider markets.",
     modalContent: (
       <>
         <p>
-          I spearheaded the development of a comprehensive platform focused on providing users with vital insights into the
-          legal landscape of smart transportation. Meticulously architecting a robust backend with Express.js, Node.js,
-          and MongoDB, I implemented secure user authentication through JWT and bcrypt. This backend not only serves as an
-          API for seamless frontend communication but also orchestrates web scraping operations to fetch real-time legal
-          idata from authoritative sources.
+          Green is life! I was contracted with developing a product for Palmshops and had to come up with a simple landing page that requires little to put up while we concentrate on building the ace.
         </p>
         <p>
-          On the frontend, I crafted a responsive React application that seamlessly communicates with the backend to deliver
-          legal information in a visually appealing manner. Leveraging React Router for navigation, the application provides an
-          intuitive and engaging user experience. An innovative feature involves web scraping for dynamic data retrieval,
-          showcasing my ability to implement complex functionalities while ensuring data privacy and system reliability.
+          From ideation to deployment, I collaborated closely with the UI/UX team to enhance the user experience and interface by
+          leveraging their expertise to create an intuitive website that effectively communicated the values of PalmShops.
         </p>
         <p>
-          The project also stands out for its attention to detail, incorporating animations with the AOS library for a
-          modern and captivating user interface. Git version control was employed throughout development, facilitating
-          efficient collaboration and maintaining a clear project history. Deployed on a cloud server, this project underscores
-          my full-stack development skills, encompassing backend design, secure authentication, frontend implementation,
-          web scraping, and deployment best practices.
+          By combining my technical skills at creating reusable components and leveraging React Hooks with a keen eye for aesthetics, I successfully transformed the wireframe into a cohesive
+          and engaging web presence for PalmShops. It was a fulfilling experience that allowed me to contribute to the
+          company&apos;s growth in the digital space and showcase my dedication to crafting exceptional and fully optimized online experiences.
+        </p>
+        <p>
+          I learnt a lot working on this project, especially in the area of working with a team of industry-expert designers. I was able to implement efficient
+          and scalable solutions to complex problems like routing, complex positioning, logic generally, and I look forward to working on more projects like this.
         </p>
       </>
     ),
