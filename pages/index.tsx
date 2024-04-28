@@ -12,20 +12,20 @@ export default function home() {
         <meta name="description" content="Oluwatoyin Abayomi Olaoye | Full-Stack Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Oluwatoyin Abayomi Olaoye | Full-Stack Developer" />
-        <meta name="description" content="Hey! I'm Oluwatoyin Olaoye, a full-stack software developer with keen interest in problem-solving." />
+        <meta name="description" content="Hey! I'm Oluwatoyin Olaoye, a full-stack software developer with a keen interest in problem-solving." />
 
         <meta property="og:title" content="Oluwatoyin Abayomi Olaoye | Full-Stack Developer" />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://mindprep.tech/" />
-        <meta property="og:image" content="https://mindprep.tech/oat_bg.png" />
-        <meta property="og:description" content="Hey! I'm Oluwatoyin Olaoye, a full-stack software developer with keen interest in problem-solving." />
+        <meta property="og:url" content="https://olaoyeoluwatoyin.me/" />
+        <meta property="og:image" content="https://olaoyeoluwatoyin.me/oat_bg.png" />
+        <meta property="og:description" content="Hey! I'm Oluwatoyin Olaoye, a full-stack software developer with a keen interest in problem-solving." />
 
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@olaoyeelijah"/>
         <meta name="twitter:title" content="Oluwatoyin Abayomi Olaoye | Full-Stack Developer"/>
-        <meta name="twitter:description" content="Hey! I'm Oluwatoyin Olaoye, a full-stack software developer with keen interest in problem-solving."/>
+        <meta name="twitter:description" content="Hey! I'm Oluwatoyin Olaoye, a full-stack software developer with a keen interest in problem-solving."/>
         <meta name="twitter:creator" content="@olaoyeelijah"/>
-        <meta name="twitter:image" content="https://mindprep.tech/oat_bg.png"/>
+        <meta name="twitter:image" content="https://olaoyeoluwatoyin.me/oat_bg.png"/>
       </Head>
       <Home />
     </>
