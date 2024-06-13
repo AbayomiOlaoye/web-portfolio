@@ -13,7 +13,7 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Hi, I&apos;m Oluwatoyin Olaoye, a skilled software developer specializing in Ruby, JavaScript, React,
+              Hi, I&apos;m Oluwatoyin Olaoye, a skilled software developer specializing in Ruby, JavaScript, React, Node.Js,
               and Ruby on Rails. With 2 years worth of experience,I excel in building robust web applications.
              </p>
           </Reveal>

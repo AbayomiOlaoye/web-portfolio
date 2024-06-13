@@ -57,7 +57,7 @@ const experience = [
   {
     title: "Microverse Inc.",
     position: "Technical Support Engineer - Code Reviewer",
-    time: "Jan 2023 - Present",
+    time: "Jan 2023 - March 2024",
     location: "San Francisco, CA",
     description:
       "I provide technical support through code reviews to improve code quality and overall performance to over 500 students. I also rovide one-on-one virtual office hours to help students feel comfortable with project objectives, boost their confidence in their skills, and help them grow their professional communication skills.",

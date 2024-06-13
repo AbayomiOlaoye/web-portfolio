@@ -26,6 +26,8 @@ export const Skills = () => {
               <span className="chip">HTML</span>
               <span className="chip">CSS</span>
               <span className="chip">Bootstrap</span>
+              <span className="chip">WordPress</span>
+              <span className="chip">Elementor</span>
               <span className="chip">Tailwind</span>
               <span className="chip">Material UI</span>
               <span className="chip">SASS</span>

@@ -17,6 +17,7 @@ export const Stats = () => {
             <span className="chip">CSS</span>
             <span className="chip">Tailwind</span>
             <span className="chip">Jest</span>
+            <span className="chip">WordPress</span>
             <span className="chip">Rspec</span>
             <span className="chip">React</span>
             <span className="chip">Next.js</span>
