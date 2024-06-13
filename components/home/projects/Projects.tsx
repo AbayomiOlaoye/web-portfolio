@@ -3,10 +3,11 @@ import { Project } from "./Project";
 import styles from "./projects.module.scss";
 import clinic from '@/public/project-images/vision_cover.png';
 import budgetWise from '@/public/project-images/budget_wise.png';
-import booktracker from '@/public/project-images/booktracker_cover.png';
+import green from '@/public/project-images/green.png';
 import covid from '@/public/project-images/covid_cover.png';
+import arit from '@/public/project-images/arit.png';
 import palmshops from '@/public/project-images/palmshops.png';
-import space from '@/public/project-images/space_cover.png';
+import brisbane from '@/public/project-images/brisbane.png';
 import youth from '@/public/project-images/youth_cover.png';
 import elkanis from '@/public/project-images/elkanis_Pcover.png';
 import cms from '@/public/project-images/cms_cover.png';
@@ -26,6 +27,67 @@ export const Projects = () => {
 };
 
 const projects = [
+  {
+    title: "GreenStern Investment & Holdings",
+    imgSrc: green,
+    code: "https://github.com/AbayomiOlaoye/green-stern-frontend",
+    projectLink: "https://greenstockscapital.com/",
+    tech: ["JavaScript", "React", "Redux","REST API", "Jest", "Node.Js", "MongoDB"],
+    description:
+      "Building a comprehensive website for Green Stern Investment, a global investment company. This platform will showcase Green Stern's diverse financial services, empowering clients to explore wealth-building opportunities. Interactive features like the login functionalities are still under development, but the website's core information and navigation will be available soon.",
+    modalContent: (
+      <>
+        <p>
+          A multiple webpage project that showcases the services of Green Stern Holdings, a global investment company. The website is designed to provide clients with a comprehensive overview of the company&apos;s financial services and wealth-building opportunities.
+          Handling user experience pretty well and ensuring that the website is fully responsive and optimized for mobile devices.
+        </p>
+        <p>
+          Allows users to create an account, log in, and access a range of financial services and investment opportunities. The website is designed to be user-friendly and intuitive, with a focus on providing a seamless browsing experience across all platforms.
+        </p>
+        <p>
+          The backend was crafted using the awesome power of Node.Js, database integration was powered by MongoDB, the state was managed efficiently with Redux, and the nice aesthetic UI with React.Js
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Brisbane Hotel",
+    imgSrc: brisbane,
+    code: "https://www.github.com/AbayomiOlaoye/brisbane-hotel",
+    projectLink: "https://brisbane-hotel.vercel.app/",
+    tech: ["React", "Redux", "REST API", "React Hooks", "Node.Js", "MongoDB", "CDN"],
+    description:
+      "Developed a user-friendly hotel website using React and Node.js. The front end is fully functional and showcases an intuitive design for browsing hotels, and amenities, and making inquiries.  Login and registration functionalities are currently under development due to a client-side delay regarding the cost of hosting, but the core website experience is available for exploration",
+    modalContent: (
+      <>
+        <p>
+          Rebranding a resonating digital presence for Brisbane Hotel was the key focus of this project. I was responsible for the front-end and backend development of the website, which included creating a user-friendly interface for browsing hotel rooms and packages, amenities, and making inquiries.
+        </p>
+        <p>
+          A core strength is the use of React Hooks to handle intuitive user experience when interacting with the array of images available on the page. The website is fully responsive and optimized for mobile devices, ensuring a seamless browsing experience across all platforms.
+        </p>
+        <p>
+          The concept is so simple that once a potential lodger hops on the website, makes a choice, contacts can be made with the frontdesk immediately to process the order and make payments as agreed with the assistant on Company's WhatsApp handle.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Arit Fuller Foundation",
+    imgSrc: arit,
+    code: "#",
+    projectLink: "https://aritfullerfoundation.org/",
+    tech: ["WordPress", "Elementor", "CSS", "HTML", "CDN"],
+    description:
+      "A user-friendly WordPress website for the Arit Fuller Foundation. Increased awareness, donations, and volunteer sign-ups through strategic design and Call-To-Actions. Utilized WordPress for easy content management.",
+    modalContent: (
+      <>
+        <p>
+          Rebranding a resonating digital presence for the Foundation was the key focus of this project which included creating a user-friendly interface for donors, potential partners, and the proud beneficiaries.
+        </p>
+      </>
+    ),
+  },
   {
     title: "PalmShops",
     imgSrc: palmshops,
@@ -60,7 +122,7 @@ const projects = [
     imgSrc: elkanis,
     code: "https://github.com/AbayomiOlaoye/elkanis_official_website",
     projectLink: "https://elkanisgroup.com/",
-    tech: ["React", "Styled Components", "React Router"],
+    tech: ["React", "SASS", "Styled Components", "React Router"],
     description:
       "An official website of El-kanis & Partners, an agric tech company scaling the food-chain waves in Nigeria and Africa at large. It's my first official engagement after my training at Microverse.",
     modalContent: (
@@ -83,6 +145,33 @@ const projects = [
         <p>
           I learnt a lot working on this project, especially in the area of working with a team of industry-expert designers. I was able to implement efficient
           and scalable solutions to complex problems like routing, complex positioning, logic generally, and I look forward to working on more projects like this.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Youths-In-Tech Summit",
+    imgSrc: youth,
+    code: "https://www.github.com/AbayomiOlaoye/Youth-In-Tech-Project",
+    projectLink: "https://abayomiolaoye.github.io/Youth-In-Tech-Project/",
+    tech: ["HTML", "SASS", "CSS", "JavaScript"],
+    description:
+      "Here's my first capstone project, featuring a young and dynamic group of youngsters in tech.",
+    modalContent: (
+      <>
+        <p>
+          The project was inspired by my crave to see young minds being inspired by their colleagues who have seized the
+          opportunity to learn the language of the future - not only for the financial security it affords but the feeling
+          of accomplishment it bestows.
+        </p>
+        <p>
+          After a successful switch of career from the accounting profession to the tech industry, I have been inspired to
+          help others achieve the same feat. This project is a step in that direction.
+        </p>
+        <p>
+          It is a simple conference website that showcases the speakers, the schedule, and the venue of the event. It was so
+          special that with much enthusiasm, I spent time designing the icons, logos, and other graphics used in the project.
+          I built it using HTML, SASS, and JavaScript in 1 day after 3 days of sourcing for web assets. 🤓
         </p>
       </>
     ),
@@ -180,83 +269,6 @@ const projects = [
         <p>
           By fetching data from the <a href="https://disease.sh/v3/covid-19/continents">Disease.sh API</a>, I was able to display the data in a user-friendly interface that
           allows users to filter the data by country and sort the data by the number of cases, deaths, and recoveries.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "Space Travelers Hub",
-    imgSrc: space,
-    code: "https://www.github.com/AbayomiOlaoye/space-travelers-hub",
-    projectLink: "https://space-travelers-hub-gamma.vercel.app/",
-    tech: ["React", "Redux", "REST API"],
-    description:
-      "An application that allows users to book rockets and join selected space missions. It fetches data (API) from Space-X data, using awesome Redux and React Hooks to manage dynamic states.",
-    modalContent: (
-      <>
-        <p>
-          I think I used Redux a lot in most of my applications. I love the way it manages states and makes it easy to share data across components especially in a complex app.
-        </p>
-        <p>
-          Redux offers centralized state management, predictable state changes, time travel debugging, easy collaboration, component decoupling,
-          middleware support, and a vast ecosystem with a strong community.
-        </p>
-        <p>
-          With one other developer, we built this app using Redux to manage the states and React Hooks to manage the components. It might be the first time
-          we were using conditional rendering in React, and it was a nice experience. <br /><br />With it, you can book a rocket, cancel a booking, and join a mission.
-        </p>
-        <p>Just some basic CRUD functionality thriving on optimized rendering 🚀</p>
-      </>
-    ),
-  },
-  {
-    title: "Youths-In-Tech Global Summit",
-    imgSrc: youth,
-    code: "https://www.github.com/AbayomiOlaoye/Youth-In-Tech-Project",
-    projectLink: "https://abayomiolaoye.github.io/Youth-In-Tech-Project/",
-    tech: ["HTML", "SASS", "JavaScript"],
-    description:
-      "Here's my first capstone project, featuring a young and dynamic group of youngsters in tech.",
-    modalContent: (
-      <>
-        <p>
-          The project was inspired by my crave to see young minds being inspired by their colleagues who have seized the
-          opportunity to learn the language of the future - not only for the financial security it affords but the feeling
-          of accomplishment it bestows.
-        </p>
-        <p>
-          After a successful switch of career from the accounting profession to the tech industry, I have been inspired to
-          help others achieve the same feat. This project is a step in that direction.
-        </p>
-        <p>
-          It is a simple conference website that showcases the speakers, the schedule, and the venue of the event. It was so
-          special that with much enthusiasm, I spent time designing the icons, logos, and other graphics used in the project.
-          I built it using HTML, SASS, and JavaScript in 1 day after 3 days of sourcing for web assets. 🤓
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "BookTracker App",
-    imgSrc: booktracker,
-    code: "https://github.com/AbayomiOlaoye/book_tracker",
-    projectLink: "https://abayomiolaoye.github.io/book_tracker/",
-    tech: ["JavaScript", "Webpack", "REST API", "Jest"],
-    description:
-      "A replica of Awesome Book with refactored codes, using mainly ES6 syntaxes, modules, arrow functions, JavaScript libraries (Axios, Luxon), and more. The app adds, removes and updates book in real-time with local storage functions.",
-    modalContent: (
-      <>
-        <p>
-          In this pseudo project, I was working with modularizing codes into maintainable units and components using ES6 syntaxes and modules.
-          I also used Jest to test the functions and ensure they work as expected.
-        </p>
-        <p>
-          In programming, modularization is a technique that separates the functionality of a program into independent, interchangeable modules.
-          It is a way of organizing programs into separate, discrete, and independent parts. It makes code cleaner to write, easier to understand, maintain, and test.
-        </p>
-        <p>It makes me more concerned about my PROCESSES than I was about was RESULTS.</p>
-        <p>It endeared me to the use of JavaScript ES6 Syntax (modules, arrow functions, let, const, destructuring, etc.) because of the improvements it avails,
-          aside from my experience with bundling web assets with Webpack, and using npm packages/libraries.
         </p>
       </>
     ),
